@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>TrialWithItext</title>
+    </info>
+<chapter>
+    <title>Module Documentation</title>
+    <xi:include href="dc/d3c/group___nav_bar.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="de/d67/namespacecom_1_1cassandra_1_1_trial_with_i_text.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="d7/d4b/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_trial_pdf_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="d3/deb/_app_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="de/df3/_extract_code_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="d8/d62/_navbar_p_d_f_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="da/d02/_trial_pdf_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="d9/da9/_u_i_navigation_pane_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

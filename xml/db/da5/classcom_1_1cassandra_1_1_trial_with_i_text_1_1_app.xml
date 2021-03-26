@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app" kind="class" language="Java" prot="public">
+    <compoundname>com::cassandra::TrialWithIText::App</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a83ccbf8eae5908772869b0470e44087a" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.cassandra.TrialWithIText.App.DEST</definition>
+        <argsstring></argsstring>
+        <name>DEST</name>
+        <initializer>= &quot;results/chapter01/practice2.pdf&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/App.java" line="29" column="28" bodyfile="src/main/java/com/cassandra/TrialWithIText/App.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a3e872da50d920f7b64c48191c4f6b8b7" prot="public" static="yes" mutable="no">
+        <type>final String</type>
+        <definition>final String com.cassandra.TrialWithIText.App.SRC1</definition>
+        <argsstring></argsstring>
+        <name>SRC1</name>
+        <initializer>= &quot;results/chapter01/practice1.pdf&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/App.java" line="30" column="28" bodyfile="src/main/java/com/cassandra/TrialWithIText/App.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a4ef5dddb443b5b1692f859992ee1e501" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.cassandra.TrialWithIText.App.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws IOException     </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/App.java" line="33" column="20" bodyfile="src/main/java/com/cassandra/TrialWithIText/App.java" bodystart="33" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a5a0f6bde706fe4d6f5ca8780a89860d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.cassandra.TrialWithIText.App.createPdf</definition>
+        <argsstring>(String dest)</argsstring>
+        <name>createPdf</name>
+        <param>
+          <type>String</type>
+          <declname>dest</declname>
+        </param>
+        <exceptions> throws IOException, java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/App.java" line="49" column="17" bodyfile="src/main/java/com/cassandra/TrialWithIText/App.java" bodystart="49" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1adb31e13072f9c13c67ab7e80798c3fc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.cassandra.TrialWithIText.App.createNewPDF</definition>
+        <argsstring>(String src)</argsstring>
+        <name>createNewPDF</name>
+        <param>
+          <type>String</type>
+          <declname>src</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/App.java" line="80" column="17" bodyfile="src/main/java/com/cassandra/TrialWithIText/App.java" bodystart="80" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Hello world! </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>com.cassandra.TrialWithIText.App</label>
+        <link refid="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/java/com/cassandra/TrialWithIText/App.java" line="27" column="7" bodyfile="src/main/java/com/cassandra/TrialWithIText/App.java" bodystart="28" bodyend="157"/>
+    <listofallmembers>
+      <member refid="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1adb31e13072f9c13c67ab7e80798c3fc0" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::App</scope><name>createNewPDF</name></member>
+      <member refid="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a5a0f6bde706fe4d6f5ca8780a89860d2" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::App</scope><name>createPdf</name></member>
+      <member refid="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a83ccbf8eae5908772869b0470e44087a" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::App</scope><name>DEST</name></member>
+      <member refid="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a4ef5dddb443b5b1692f859992ee1e501" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::App</scope><name>main</name></member>
+      <member refid="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a3e872da50d920f7b64c48191c4f6b8b7" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::App</scope><name>SRC1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

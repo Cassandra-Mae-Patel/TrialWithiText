@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f" xml:lang="en-US">
+<title>com.cassandra.TrialWithIText.NavbarPDF Class Reference</title>
+<indexterm><primary>com.cassandra.TrialWithIText.NavbarPDF</primary></indexterm>
+Inheritance diagram for com.cassandra.TrialWithIText.NavbarPDF:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="../../d0/dd5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for com.cassandra.TrialWithIText.NavbarPDF:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="../../df/ded/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>PdfImageXObject <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a29ab97719bf8387a4ec7b2ca59b9e6db">pdfToThumbnailImg</link> (PdfDocument pdf)  throws java.io.IOException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a08919840883a65cb9a67745566d56194">ImgtoStack</link> (PdfImageXObject img)</para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a7772fd8e59ae893263c061250fc4d1ba">navBar</link> (Image[] stack)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a463233270e4a1345ce486c966d818943">NavbarPDF</link> (PdfDocument pdfDocument)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 15 of file NavbarPDF.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a463233270e4a1345ce486c966d818943"/>    <section>
+    <title>NavbarPDF()</title>
+<indexterm><primary>NavbarPDF</primary><secondary>com.cassandra.TrialWithIText.NavbarPDF</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.NavbarPDF</primary><secondary>NavbarPDF</secondary></indexterm>
+<para><computeroutput>com.cassandra.TrialWithIText.NavbarPDF.NavbarPDF (PdfDocument pdfDocument)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file NavbarPDF.java.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a08919840883a65cb9a67745566d56194"/>    <section>
+    <title>ImgtoStack()</title>
+<indexterm><primary>ImgtoStack</primary><secondary>com.cassandra.TrialWithIText.NavbarPDF</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.NavbarPDF</primary><secondary>ImgtoStack</secondary></indexterm>
+<para><computeroutput>void com.cassandra.TrialWithIText.NavbarPDF.ImgtoStack (PdfImageXObject img)</computeroutput></para><para>
+Definition at line 34 of file NavbarPDF.java.</para>
+    </section><anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a7772fd8e59ae893263c061250fc4d1ba"/>    <section>
+    <title>navBar()</title>
+<indexterm><primary>navBar</primary><secondary>com.cassandra.TrialWithIText.NavbarPDF</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.NavbarPDF</primary><secondary>navBar</secondary></indexterm>
+<para><computeroutput>void com.cassandra.TrialWithIText.NavbarPDF.navBar (Image[] stack)</computeroutput></para><para>
+Definition at line 37 of file NavbarPDF.java.</para>
+    </section><anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a29ab97719bf8387a4ec7b2ca59b9e6db"/>    <section>
+    <title>pdfToThumbnailImg()</title>
+<indexterm><primary>pdfToThumbnailImg</primary><secondary>com.cassandra.TrialWithIText.NavbarPDF</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.NavbarPDF</primary><secondary>pdfToThumbnailImg</secondary></indexterm>
+<para><computeroutput>PdfImageXObject com.cassandra.TrialWithIText.NavbarPDF.pdfToThumbnailImg (PdfDocument pdf) throws java.io.IOException</computeroutput></para><para>
+Definition at line 24 of file NavbarPDF.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/cassandra/TrialWithIText/<link linkend="__navbar_p_d_f_8java">NavbarPDF.java</link></section>
+</section>

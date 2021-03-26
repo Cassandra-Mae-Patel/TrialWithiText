@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code" kind="class" language="Java" prot="public">
+    <compoundname>com::cassandra::TrialWithIText::ExtractCode</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code_1ac6472c4dc3892fb8b1ff7b69e6c417fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.cassandra.TrialWithIText.ExtractCode.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/ExtractCode.java" line="5" column="20" bodyfile="src/main/java/com/cassandra/TrialWithIText/ExtractCode.java" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>com.cassandra.TrialWithIText.ExtractCode</label>
+        <link refid="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/java/com/cassandra/TrialWithIText/ExtractCode.java" line="3" column="7" bodyfile="src/main/java/com/cassandra/TrialWithIText/ExtractCode.java" bodystart="3" bodyend="10"/>
+    <listofallmembers>
+      <member refid="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code_1ac6472c4dc3892fb8b1ff7b69e6c417fa" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::ExtractCode</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

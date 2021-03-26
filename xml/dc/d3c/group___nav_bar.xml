@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dc/d3c/group___nav_bar" kind="group">
+    <compoundname>NavBar</compoundname>
+    <title>Navigation Pane</title>
+    <innerclass refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane" prot="public">com::cassandra::TrialWithIText::UINavigationPane</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Here starts the navigation Pane creation or formation </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

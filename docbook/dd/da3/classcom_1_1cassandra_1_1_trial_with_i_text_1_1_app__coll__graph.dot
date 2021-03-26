@@ -1,0 +1,7 @@
+digraph "com.cassandra.TrialWithIText.App"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{com.cassandra.TrialWithIText.App\n|+ static final String DEST\l+ static final String SRC1\l|+ void createPdf(String\l dest)\l+ void createNewPDF(String src)\l+ static void main(String\l[] args)\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+}

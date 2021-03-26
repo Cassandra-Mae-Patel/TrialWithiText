@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app" xml:lang="en-US">
+<title>com.cassandra.TrialWithIText.App Class Reference</title>
+<indexterm><primary>com.cassandra.TrialWithIText.App</primary></indexterm>
+Collaboration diagram for com.cassandra.TrialWithIText.App:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="../../dd/da3/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a5a0f6bde706fe4d6f5ca8780a89860d2">createPdf</link> (String dest)  throws IOException, java.io.IOException </para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1adb31e13072f9c13c67ab7e80798c3fc0">createNewPDF</link> (String src)  throws java.io.IOException </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a4ef5dddb443b5b1692f859992ee1e501">main</link> (String[] args)  throws IOException     </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static final String <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a83ccbf8eae5908772869b0470e44087a">DEST</link> = &quot;results/chapter01/practice2.pdf&quot;</para>
+</listitem>
+            <listitem><para>static final String <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a3e872da50d920f7b64c48191c4f6b8b7">SRC1</link> = &quot;results/chapter01/practice1.pdf&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Hello world! </para>
+<para>
+Definition at line 27 of file App.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1adb31e13072f9c13c67ab7e80798c3fc0"/>    <section>
+    <title>createNewPDF()</title>
+<indexterm><primary>createNewPDF</primary><secondary>com.cassandra.TrialWithIText.App</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.App</primary><secondary>createNewPDF</secondary></indexterm>
+<para><computeroutput>void com.cassandra.TrialWithIText.App.createNewPDF (String src) throws java.io.IOException</computeroutput></para><para>
+Definition at line 80 of file App.java.</para>
+    </section><anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a5a0f6bde706fe4d6f5ca8780a89860d2"/>    <section>
+    <title>createPdf()</title>
+<indexterm><primary>createPdf</primary><secondary>com.cassandra.TrialWithIText.App</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.App</primary><secondary>createPdf</secondary></indexterm>
+<para><computeroutput>void com.cassandra.TrialWithIText.App.createPdf (String dest) throws IOException, java.io.IOException</computeroutput></para><para>
+Definition at line 49 of file App.java.</para>
+    </section><anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a4ef5dddb443b5b1692f859992ee1e501"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.cassandra.TrialWithIText.App</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.App</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.cassandra.TrialWithIText.App.main (String[] args) throws IOException<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 33 of file App.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a83ccbf8eae5908772869b0470e44087a"/>    <section>
+    <title>DEST</title>
+<indexterm><primary>DEST</primary><secondary>com.cassandra.TrialWithIText.App</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.App</primary><secondary>DEST</secondary></indexterm>
+<para><computeroutput>final String com.cassandra.TrialWithIText.App.DEST = &quot;results/chapter01/practice2.pdf&quot;<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 29 of file App.java.</para>
+    </section><anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app_1a3e872da50d920f7b64c48191c4f6b8b7"/>    <section>
+    <title>SRC1</title>
+<indexterm><primary>SRC1</primary><secondary>com.cassandra.TrialWithIText.App</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.App</primary><secondary>SRC1</secondary></indexterm>
+<para><computeroutput>final String com.cassandra.TrialWithIText.App.SRC1 = &quot;results/chapter01/practice1.pdf&quot;<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 30 of file App.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/cassandra/TrialWithIText/<link linkend="__app_8java">App.java</link></section>
+</section>

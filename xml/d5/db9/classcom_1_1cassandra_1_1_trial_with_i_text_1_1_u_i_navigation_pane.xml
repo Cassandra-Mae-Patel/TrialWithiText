@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane" kind="class" language="Java" prot="public">
+    <compoundname>com::cassandra::TrialWithIText::UINavigationPane</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a5eb4af985e7c407aae2cf513b4e7ab1b" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.cassandra.TrialWithIText.UINavigationPane.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" line="22" column="8" bodyfile="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1afda99173ea1c7ac28444f94c9c522071" prot="package" static="no" mutable="no">
+        <type>double</type>
+        <definition>double com.cassandra.TrialWithIText.UINavigationPane.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" line="22" column="9" bodyfile="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a4a4cb70f4f14702081c2320545f1e6e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.cassandra.TrialWithIText.UINavigationPane.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" line="24" column="20" bodyfile="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1aaaec545ac6e98ba59746477bd3f6dbe8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.cassandra.TrialWithIText.UINavigationPane.start</definition>
+        <argsstring>(Stage primaryStage)</argsstring>
+        <name>start</name>
+        <param>
+          <type>Stage</type>
+          <declname>primaryStage</declname>
+        </param>
+        <exceptions> throws Exception </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ref: task 1.1 Ref: task 1.2 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" line="32" column="13" bodyfile="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" bodystart="32" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a87374357d51be7d548fa7b88456f9032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.cassandra.TrialWithIText.UINavigationPane.PdfReorder</definition>
+        <argsstring>()</argsstring>
+        <name>PdfReorder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ref: task 1.3 This method is called only after the <ulink url="Ref: task 1.2">drag and drop event</ulink>. <linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" line="36" column="13" bodyfile="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" bodystart="36" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Ref: User_Story 1 Ref: task 1.1 This class provides the functionality for the navigation pane while accessing the PDF. <linebreak/>
+ </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>com.cassandra.TrialWithIText.UINavigationPane</label>
+        <link refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>com.cassandra.TrialWithIText.UINavigationPane</label>
+        <link refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" line="21" column="7" bodyfile="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java" bodystart="21" bodyend="39"/>
+    <listofallmembers>
+      <member refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a4a4cb70f4f14702081c2320545f1e6e2" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::UINavigationPane</scope><name>main</name></member>
+      <member refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a87374357d51be7d548fa7b88456f9032" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::UINavigationPane</scope><name>PdfReorder</name></member>
+      <member refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1aaaec545ac6e98ba59746477bd3f6dbe8" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::UINavigationPane</scope><name>start</name></member>
+      <member refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a5eb4af985e7c407aae2cf513b4e7ab1b" prot="package" virt="non-virtual"><scope>com::cassandra::TrialWithIText::UINavigationPane</scope><name>x</name></member>
+      <member refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1afda99173ea1c7ac28444f94c9c522071" prot="package" virt="non-virtual"><scope>com::cassandra::TrialWithIText::UINavigationPane</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

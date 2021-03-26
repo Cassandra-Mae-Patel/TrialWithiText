@@ -1,0 +1,150 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=14744, tid=2432
+#
+# JRE version:  (8.0_65-b17) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.65-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002c2e000):  JavaThread "Unknown thread" [_thread_in_vm, id=2432, stack(0x0000000002b00000,0x0000000002c00000)]
+
+Stack: [0x0000000002b00000,0x0000000002c00000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002c2e000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=2432, stack(0x0000000002b00000,0x0000000002c00000)]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 37888K, used 655K [0x00000000d6300000, 0x00000000d8d00000, 0x0000000100000000)
+  eden space 32768K, 2% used [0x00000000d6300000,0x00000000d63a3d80,0x00000000d8300000)
+  from space 5120K, 0% used [0x00000000d8800000,0x00000000d8800000,0x00000000d8d00000)
+  to   space 5120K, 0% used [0x00000000d8300000,0x00000000d8300000,0x00000000d8800000)
+ ParOldGen       total 86016K, used 0K [0x0000000082800000, 0x0000000087c00000, 0x00000000d6300000)
+  object space 86016K, 0% used [0x0000000082800000,0x0000000082800000,0x0000000087c00000)
+ Metaspace       used 743K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 75K, capacity 384K, committed 384K, reserved 1048576K
+
+Card table byte_map: [0x0000000012100000,0x00000000124f0000] byte_map_base: 0x0000000011cec000
+
+Marking Bits: (ParMarkBitMap*) 0x000000007017a5b0
+ Begin Bits: [0x0000000012b90000, 0x0000000014af0000)
+ End Bits:   [0x0000000014af0000, 0x0000000016a50000)
+
+Polling page: 0x0000000002c00000
+
+CodeCache: size=245760Kb used=328Kb max_used=328Kb free=245431Kb
+ bounds [0x0000000002d40000, 0x0000000002fb0000, 0x0000000011d40000]
+ total_blobs=57 nmethods=0 adapters=37
+ compilation: enabled
+
+Compilation events (0 events):
+No events
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.033 loading class java/lang/Short
+Event: 0.033 loading class java/lang/Short done
+Event: 0.033 loading class java/lang/Integer
+Event: 0.033 loading class java/lang/Integer done
+Event: 0.033 loading class java/lang/Long
+Event: 0.033 loading class java/lang/Long done
+Event: 0.034 loading class java/lang/NullPointerException
+Event: 0.034 loading class java/lang/NullPointerException done
+Event: 0.034 loading class java/lang/ArithmeticException
+Event: 0.034 loading class java/lang/ArithmeticException done
+
+
+Dynamic libraries:
+0x00007ff63d000000 - 0x00007ff63d037000 	C:\Program Files\Java\jre1.8.0_65\bin\javaw.exe
+0x00007ffa412d0000 - 0x00007ffa414c6000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffa40c40000 - 0x00007ffa40cfd000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffa3ef60000 - 0x00007ffa3f229000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x000000006f640000 - 0x000000006f969000 	C:\Program Files\Norton Security\NortonData\22.20.5.39\Definitions\IPSDefs\20210311.061\IPSEng64.dll
+0x00007ffa407b0000 - 0x00007ffa4085c000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffa3f5e0000 - 0x00007ffa3f67e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffa3f330000 - 0x00007ffa3f3cc000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffa40860000 - 0x00007ffa4098b000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffa40a70000 - 0x00007ffa40a78000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffa3f440000 - 0x00007ffa3f5e0000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffa3ef30000 - 0x00007ffa3ef52000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffa3fc20000 - 0x00007ffa3fc4a000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffa3ed70000 - 0x00007ffa3ee7b000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffa3ecd0000 - 0x00007ffa3ed6d000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffa3ea10000 - 0x00007ffa3eb10000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffa2d8a0000 - 0x00007ffa2db3b000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.746_none_ca02b4b61b8320a4\COMCTL32.dll
+0x00007ffa405a0000 - 0x00007ffa405d0000 	C:\WINDOWS\System32\IMM32.DLL
+0x000000006f560000 - 0x000000006f632000 	C:\Program Files\Java\jre1.8.0_65\bin\msvcr100.dll
+0x000000006f970000 - 0x00000000701f9000 	C:\Program Files\Java\jre1.8.0_65\bin\server\jvm.dll
+0x00007ffa2e880000 - 0x00007ffa2e8a7000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffa3ca40000 - 0x00007ffa3ca49000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffa40680000 - 0x00007ffa406eb000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffa3a260000 - 0x00007ffa3a26a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x0000000073060000 - 0x000000007306f000 	C:\Program Files\Java\jre1.8.0_65\bin\verify.dll
+0x0000000072d40000 - 0x0000000072d69000 	C:\Program Files\Java\jre1.8.0_65\bin\java.dll
+0x0000000072d20000 - 0x0000000072d36000 	C:\Program Files\Java\jre1.8.0_65\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 
+java_command: com.cassandra.TrialWithIText.NavbarPDF
+java_class_path (initial): C:\Users\Cassandra Mae\eclipse-workspace\TrialWithIText\target\classes;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\barcodes\7.1.14\barcodes-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\font-asian\7.1.14\font-asian-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\forms\7.1.14\forms-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\hyph\7.1.14\hyph-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\io\7.1.14\io-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\kernel\7.1.14\kernel-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.67\bcpkix-jdk15on-1.67.jar;C:\Users\Cassandra Mae\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.67\bcprov-jdk15on-1.67.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\layout\7.1.14\layout-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\pdfa\7.1.14\pdfa-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\sign\7.1.14\sign-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\styled-xml-parser\7.1.14\styled-xml-parser-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Cassandra Mae\.m2\repository\com\itextpdf\svg\7.1.14\svg-7.1.14.jar;C:\Users\Cassandra Mae\.m2\repository\org\slf4j\slf4j-log4j12\1.7.18\slf4j-log4j12-1.7.18.jar;C:\Users\Cassandra Mae\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files/Java/jre1.8.0_65/bin/server;C:/Program Files/Java/jre1.8.0_65/bin;C:/Program Files/Java/jre1.8.0_65/lib/amd64;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;C:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_65\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Cassandra Mae\AppData\Local\Android\Sdk\platform-tools;C:\sqlite\sqlite-tools-win32-x86-3220000;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C;C:\Program Files\CMake\bin;C;C;C:\Users\Cassandra Mae\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Cassandra Mae\AppData\Local\Programs\Python\Python39\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Cassandra Mae\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;;;C:\Users\Cassandra Mae\Desktop;
+USERNAME=Cassandra Mae
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 19041 (10.0.19041.662)
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 78 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx
+
+Memory: 4k page, physical 8223584k(3023908k free), swap 10168160k(6196k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.65-b01) for windows-amd64 JRE (1.8.0_65-b17), built on Oct  6 2015 16:39:20 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Sun Mar 14 19:29:18 2021
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

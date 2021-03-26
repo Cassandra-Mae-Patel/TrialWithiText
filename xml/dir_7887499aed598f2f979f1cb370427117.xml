@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_7887499aed598f2f979f1cb370427117" kind="dir">
+    <compoundname>src/main/java/com/cassandra</compoundname>
+    <innerdir refid="dir_4460af1d08f33517ac5179704bfe9c8c">src/main/java/com/cassandra/TrialWithIText</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/com/cassandra/"/>
+  </compounddef>
+</doxygen>

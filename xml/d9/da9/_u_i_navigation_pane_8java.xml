@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="d9/da9/_u_i_navigation_pane_8java" kind="file" language="Java">
+    <compoundname>UINavigationPane.java</compoundname>
+    <innerclass refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane" prot="public">com::cassandra::TrialWithIText::UINavigationPane</innerclass>
+    <innernamespace refid="de/d67/namespacecom_1_1cassandra_1_1_trial_with_i_text">com::cassandra::TrialWithIText</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.cassandra.TrialWithIText;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.application.Application;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.fxml.FXMLLoader;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.Parent;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.Scene;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.scene.layout.VBox;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.stage.Stage;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>javafx.stage.StageStyle;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane" kindref="compound">UINavigationPane</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Application<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,y;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a4a4cb70f4f14702081c2320545f1e6e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a4a4cb70f4f14702081c2320545f1e6e2" kindref="member">main</ref>(String[]<sp/>args)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>method<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="32" refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1aaaec545ac6e98ba59746477bd3f6dbe8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1aaaec545ac6e98ba59746477bd3f6dbe8" kindref="member">start</ref>(Stage<sp/>primaryStage)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36" refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a87374357d51be7d548fa7b88456f9032" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a87374357d51be7d548fa7b88456f9032" kindref="member">PdfReorder</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="src/main/java/com/cassandra/TrialWithIText/UINavigationPane.java"/>
+  </compounddef>
+</doxygen>

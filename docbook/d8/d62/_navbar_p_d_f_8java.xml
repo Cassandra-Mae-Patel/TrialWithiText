@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__navbar_p_d_f_8java" xml:lang="en-US">
+<title>src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java File Reference</title>
+<indexterm><primary>src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f">com.cassandra.TrialWithIText.NavbarPDF</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespacecom_1_1cassandra_1_1_trial_with_i_text">com.cassandra.TrialWithIText</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

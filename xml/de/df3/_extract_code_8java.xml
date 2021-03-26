@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="de/df3/_extract_code_8java" kind="file" language="Java">
+    <compoundname>ExtractCode.java</compoundname>
+    <innerclass refid="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code" prot="public">com::cassandra::TrialWithIText::ExtractCode</innerclass>
+    <innernamespace refid="de/d67/namespacecom_1_1cassandra_1_1_trial_with_i_text">com::cassandra::TrialWithIText</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.cassandra.TrialWithIText;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code" kindref="compound">ExtractCode</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code_1ac6472c4dc3892fb8b1ff7b69e6c417fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code_1ac6472c4dc3892fb8b1ff7b69e6c417fa" kindref="member">main</ref>(String[]<sp/>args)<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>method<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main/java/com/cassandra/TrialWithIText/ExtractCode.java"/>
+  </compounddef>
+</doxygen>

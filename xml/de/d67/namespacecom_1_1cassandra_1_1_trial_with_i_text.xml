@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="de/d67/namespacecom_1_1cassandra_1_1_trial_with_i_text" kind="namespace" language="Java">
+    <compoundname>com::cassandra::TrialWithIText</compoundname>
+    <innerclass refid="db/da5/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app" prot="public">com::cassandra::TrialWithIText::App</innerclass>
+    <innerclass refid="de/dbb/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code" prot="public">com::cassandra::TrialWithIText::ExtractCode</innerclass>
+    <innerclass refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f" prot="public">com::cassandra::TrialWithIText::NavbarPDF</innerclass>
+    <innerclass refid="d7/d4b/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_trial_pdf_test" prot="public">com::cassandra::TrialWithIText::TrialPdfTest</innerclass>
+    <innerclass refid="d5/db9/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane" prot="public">com::cassandra::TrialWithIText::UINavigationPane</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/com/cassandra/TrialWithIText/App.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

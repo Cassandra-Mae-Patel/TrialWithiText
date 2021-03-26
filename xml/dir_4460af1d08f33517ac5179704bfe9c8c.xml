@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_4460af1d08f33517ac5179704bfe9c8c" kind="dir">
+    <compoundname>src/main/java/com/cassandra/TrialWithIText</compoundname>
+    <innerfile refid="d3/deb/_app_8java">App.java</innerfile>
+    <innerfile refid="de/df3/_extract_code_8java">ExtractCode.java</innerfile>
+    <innerfile refid="d8/d62/_navbar_p_d_f_8java">NavbarPDF.java</innerfile>
+    <innerfile refid="da/d02/_trial_pdf_test_8java">TrialPdfTest.java</innerfile>
+    <innerfile refid="d9/da9/_u_i_navigation_pane_8java">UINavigationPane.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/com/cassandra/TrialWithIText/"/>
+  </compounddef>
+</doxygen>

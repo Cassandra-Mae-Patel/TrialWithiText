@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="d8/d62/_navbar_p_d_f_8java" kind="file" language="Java">
+    <compoundname>NavbarPDF.java</compoundname>
+    <innerclass refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f" prot="public">com::cassandra::TrialWithIText::NavbarPDF</innerclass>
+    <innernamespace refid="de/d67/namespacecom_1_1cassandra_1_1_trial_with_i_text">com::cassandra::TrialWithIText</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.cassandra.TrialWithIText;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.io.File;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.io.IOException;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.itextpdf.kernel.pdf.PdfDocument;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.itextpdf.kernel.pdf.PdfName;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.itextpdf.kernel.pdf.PdfPage;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.itextpdf.kernel.pdf.PdfReader;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.itextpdf.kernel.pdf.PdfStream;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.itextpdf.kernel.pdf.xobject.PdfImageXObject;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>com.itextpdf.layout.element.Image;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f" kindref="compound">NavbarPDF</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>PdfPage<sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20" refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a463233270e4a1345ce486c966d818943" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/><ref refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a463233270e4a1345ce486c966d818943" kindref="member">NavbarPDF</ref>(PdfDocument<sp/>pdfDocument)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(pdfDocument);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24" refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a29ab97719bf8387a4ec7b2ca59b9e6db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>PdfImageXObject<sp/><ref refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a29ab97719bf8387a4ec7b2ca59b9e6db" kindref="member">pdfToThumbnailImg</ref><sp/>(PdfDocument<sp/>pdf)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/>java.io.IOException<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*PdfReader<sp/>reader<sp/>=<sp/>new<sp/>PdfReader(pdf_path);*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//PdfDocument<sp/>doc<sp/>=<sp/>new<sp/>PdfDocument(reader);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f" kindref="compound">NavbarPDF</ref><sp/>pf<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a463233270e4a1345ce486c966d818943" kindref="member">NavbarPDF</ref>(pdf);<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PdfImageXObject<sp/>imObj<sp/>=<sp/>pf.getThumbnailImage();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>System.out.println(</highlight><highlight class="stringliteral">&quot;PDF<sp/>thumbnail<sp/>obtained&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>imObj;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ImgtoStack(imObj);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34" refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a08919840883a65cb9a67745566d56194" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a08919840883a65cb9a67745566d56194" kindref="member">ImgtoStack</ref><sp/>(PdfImageXObject<sp/>img)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37" refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a7772fd8e59ae893263c061250fc4d1ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a7772fd8e59ae893263c061250fc4d1ba" kindref="member">navBar</ref>(Image[]<sp/>stack)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>adding<sp/>pg<sp/>num<sp/>is<sp/>left</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*public<sp/>PdfImageXObject<sp/>getThumbnailImage()<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PdfStream<sp/>thumbStream<sp/>=<sp/>getPdfObject().getAsStream(PdfName.Thumb);</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>thumbStream<sp/>!=<sp/>null<sp/>?<sp/>new<sp/>PdfImageXObject(thumbStream)<sp/>:<sp/>null;</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java"/>
+  </compounddef>
+</doxygen>

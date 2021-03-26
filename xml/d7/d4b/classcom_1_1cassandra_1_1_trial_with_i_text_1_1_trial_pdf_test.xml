@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="d7/d4b/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_trial_pdf_test" kind="class" language="Java" prot="public">
+    <compoundname>com::cassandra::TrialWithIText::TrialPdfTest</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/d4b/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_trial_pdf_test_1a2b05e0ee51f81f46b5e3a1109e0c3c61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.cassandra.TrialWithIText.TrialPdfTest.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/TrialPdfTest.java" line="21" column="20" bodyfile="src/main/java/com/cassandra/TrialWithIText/TrialPdfTest.java" bodystart="21" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>com.cassandra.TrialWithIText.TrialPdfTest</label>
+        <link refid="d7/d4b/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_trial_pdf_test"/>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/java/com/cassandra/TrialWithIText/TrialPdfTest.java" line="19" column="7" bodyfile="src/main/java/com/cassandra/TrialWithIText/TrialPdfTest.java" bodystart="19" bodyend="66"/>
+    <listofallmembers>
+      <member refid="d7/d4b/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_trial_pdf_test_1a2b05e0ee51f81f46b5e3a1109e0c3c61" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::TrialPdfTest</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

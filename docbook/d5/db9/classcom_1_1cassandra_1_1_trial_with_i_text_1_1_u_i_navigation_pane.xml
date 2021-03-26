@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane" xml:lang="en-US">
+<title>com.cassandra.TrialWithIText.UINavigationPane Class Reference</title>
+<indexterm><primary>com.cassandra.TrialWithIText.UINavigationPane</primary></indexterm>
+Inheritance diagram for com.cassandra.TrialWithIText.UINavigationPane:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="../../d3/dfd/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for com.cassandra.TrialWithIText.UINavigationPane:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="../../d5/d6f/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1aaaec545ac6e98ba59746477bd3f6dbe8">start</link> (Stage primaryStage)  throws Exception </para>
+</listitem>
+            <listitem><para>void <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a87374357d51be7d548fa7b88456f9032">PdfReorder</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a4a4cb70f4f14702081c2320545f1e6e2">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Ref: User_Story 1 Ref: task 1.1 This class provides the functionality for the navigation pane while accessing the PDF. 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+<para>
+Definition at line 21 of file UINavigationPane.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a4a4cb70f4f14702081c2320545f1e6e2"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.cassandra.TrialWithIText.UINavigationPane</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.UINavigationPane</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.cassandra.TrialWithIText.UINavigationPane.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file UINavigationPane.java.</para>
+    </section><anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1a87374357d51be7d548fa7b88456f9032"/>    <section>
+    <title>PdfReorder()</title>
+<indexterm><primary>PdfReorder</primary><secondary>com.cassandra.TrialWithIText.UINavigationPane</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.UINavigationPane</primary><secondary>PdfReorder</secondary></indexterm>
+<para><computeroutput>void com.cassandra.TrialWithIText.UINavigationPane.PdfReorder ( )</computeroutput></para>
+<para>Ref: task 1.3 This method is called only after the <link xlink:href="Ref: task 1.2">drag and drop event</link>. 
+<literallayout>&#160;&#xa;</literallayout>
+ </para>
+<para>
+Definition at line 36 of file UINavigationPane.java.</para>
+    </section><anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane_1aaaec545ac6e98ba59746477bd3f6dbe8"/>    <section>
+    <title>start()</title>
+<indexterm><primary>start</primary><secondary>com.cassandra.TrialWithIText.UINavigationPane</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.UINavigationPane</primary><secondary>start</secondary></indexterm>
+<para><computeroutput>void com.cassandra.TrialWithIText.UINavigationPane.start (Stage primaryStage) throws Exception</computeroutput></para>
+<para>Ref: task 1.1 Ref: task 1.2 </para>
+<para>
+Definition at line 32 of file UINavigationPane.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/cassandra/TrialWithIText/<link linkend="__u_i_navigation_pane_8java">UINavigationPane.java</link></section>
+</section>

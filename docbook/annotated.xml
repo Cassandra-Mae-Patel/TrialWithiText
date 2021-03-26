@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="en-US">
+<title>Class List</title>
+Here are the classes, structs, unions and interfaces with brief descriptions:<link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app">com.cassandra.TrialWithIText.App</link><link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code">com.cassandra.TrialWithIText.ExtractCode</link><link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f">com.cassandra.TrialWithIText.NavbarPDF</link><link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_trial_pdf_test">com.cassandra.TrialWithIText.TrialPdfTest</link><link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane">com.cassandra.TrialWithIText.UINavigationPane</link></section>

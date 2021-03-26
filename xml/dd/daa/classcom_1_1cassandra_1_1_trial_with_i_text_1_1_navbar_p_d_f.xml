@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f" kind="class" language="Java" prot="public">
+    <compoundname>com::cassandra::TrialWithIText::NavbarPDF</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">PdfPage</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a463233270e4a1345ce486c966d818943" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.cassandra.TrialWithIText.NavbarPDF.NavbarPDF</definition>
+        <argsstring>(PdfDocument pdfDocument)</argsstring>
+        <name>NavbarPDF</name>
+        <param>
+          <type>PdfDocument</type>
+          <declname>pdfDocument</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" line="20" column="11" bodyfile="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a29ab97719bf8387a4ec7b2ca59b9e6db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PdfImageXObject</type>
+        <definition>PdfImageXObject com.cassandra.TrialWithIText.NavbarPDF.pdfToThumbnailImg</definition>
+        <argsstring>(PdfDocument pdf)</argsstring>
+        <name>pdfToThumbnailImg</name>
+        <param>
+          <type>PdfDocument</type>
+          <declname>pdf</declname>
+        </param>
+        <exceptions> throws java.io.IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" line="24" column="24" bodyfile="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a08919840883a65cb9a67745566d56194" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.cassandra.TrialWithIText.NavbarPDF.ImgtoStack</definition>
+        <argsstring>(PdfImageXObject img)</argsstring>
+        <name>ImgtoStack</name>
+        <param>
+          <type>PdfImageXObject</type>
+          <declname>img</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" line="34" column="13" bodyfile="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a7772fd8e59ae893263c061250fc4d1ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.cassandra.TrialWithIText.NavbarPDF.navBar</definition>
+        <argsstring>(Image[] stack)</argsstring>
+        <name>navBar</name>
+        <param>
+          <type>Image[]</type>
+          <declname>stack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" line="37" column="13" bodyfile="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PdfPage</label>
+      </node>
+      <node id="1">
+        <label>com.cassandra.TrialWithIText.NavbarPDF</label>
+        <link refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PdfPage</label>
+      </node>
+      <node id="1">
+        <label>com.cassandra.TrialWithIText.NavbarPDF</label>
+        <link refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" line="15" column="7" bodyfile="src/main/java/com/cassandra/TrialWithIText/NavbarPDF.java" bodystart="15" bodyend="45"/>
+    <listofallmembers>
+      <member refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a08919840883a65cb9a67745566d56194" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::NavbarPDF</scope><name>ImgtoStack</name></member>
+      <member refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a7772fd8e59ae893263c061250fc4d1ba" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::NavbarPDF</scope><name>navBar</name></member>
+      <member refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a463233270e4a1345ce486c966d818943" prot="protected" virt="non-virtual"><scope>com::cassandra::TrialWithIText::NavbarPDF</scope><name>NavbarPDF</name></member>
+      <member refid="dd/daa/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f_1a29ab97719bf8387a4ec7b2ca59b9e6db" prot="public" virt="non-virtual"><scope>com::cassandra::TrialWithIText::NavbarPDF</scope><name>pdfToThumbnailImg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

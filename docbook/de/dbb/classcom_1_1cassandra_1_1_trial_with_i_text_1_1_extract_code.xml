@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code" xml:lang="en-US">
+<title>com.cassandra.TrialWithIText.ExtractCode Class Reference</title>
+<indexterm><primary>com.cassandra.TrialWithIText.ExtractCode</primary></indexterm>
+Collaboration diagram for com.cassandra.TrialWithIText.ExtractCode:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="../../d4/d60/classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code_1ac6472c4dc3892fb8b1ff7b69e6c417fa">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 3 of file ExtractCode.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code_1ac6472c4dc3892fb8b1ff7b69e6c417fa"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>com.cassandra.TrialWithIText.ExtractCode</secondary></indexterm>
+<indexterm><primary>com.cassandra.TrialWithIText.ExtractCode</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void com.cassandra.TrialWithIText.ExtractCode.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 5 of file ExtractCode.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/com/cassandra/TrialWithIText/<link linkend="__extract_code_8java">ExtractCode.java</link></section>
+</section>

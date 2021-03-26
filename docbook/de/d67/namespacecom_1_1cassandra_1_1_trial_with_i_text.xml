@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecom_1_1cassandra_1_1_trial_with_i_text" xml:lang="en-US">
+<title>Package com.cassandra.TrialWithIText</title>
+<indexterm><primary>com.cassandra.TrialWithIText</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_app">App</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_extract_code">ExtractCode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_navbar_p_d_f">NavbarPDF</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_trial_pdf_test">TrialPdfTest</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcom_1_1cassandra_1_1_trial_with_i_text_1_1_u_i_navigation_pane">UINavigationPane</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
